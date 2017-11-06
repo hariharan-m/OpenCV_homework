@@ -44,3 +44,5 @@ cv2.imshow('S channel',s)
 cv2.imshow('V channel',v)
 
 print("HSV:\n",hin[20,25],"\nY: ",h.max(),"to ",h.min(),"\nS: ",s.max(),"to ",s.min(),"\nV: ",v.max(),"to ",v.min())
+
+cv2.waitKey(0)
